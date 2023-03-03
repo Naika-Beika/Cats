@@ -1,0 +1,53 @@
+.modal-wrapper{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.4);
+    z-index: 1;
+    backdrop-filter: blur(3px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-modal{
+    background-color: antiquewhite;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.error-msg{
+    color: red;
+}
+/*
+.current_cat{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.4);
+    z-index: 1;
+    backdrop-filter: blur(3px); 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.cat-card{
+    background-color: antiquewhite;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
